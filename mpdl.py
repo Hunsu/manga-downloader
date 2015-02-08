@@ -2,7 +2,10 @@
 # encoding: utf-8
 
 
-"""Mangafox Download Script by Kunal Sarkhel <theninja@bluedevs.net>"""
+"""Script to download manga from MangaPand.com inspired
+by a script by Kunal Sarkhel <theninja@bluedevs.net>
+Author: Rabah Meradi <rabahmeradi@gmail.com>
+"""
 
 import sys
 import os
