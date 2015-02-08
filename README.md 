@@ -1,0 +1,41 @@
+Manga Download Script
+========================
+
+About
+-----
+Manga Download Scripts is a manga downloader similar to my old MangaFox Download Script. It works by scraping the image URL from every page in a manga chapter. It then it downloads all the images.
+I was using MangaFox script but the images quality in MangaFox isn't good for me so I created this to download manga from MangaPanda. In the future I will improve this and I will try to add other sites.
+
+Dependencies
+------------
+
+  * Python 2.7, 3.3
+  * BeautifulSoup (``pip install beautifulsoup`` OR ``pip install beautifulsoup4``)
+
+Tested on Ubuntu Linux 14.04 LTS. It should work on any Linux, OS X, or Windows machine as long as the dependencies are installed.
+
+Usage
+-----
+To download an entire series:
+
+    ~ $ python script_name.py MANGA_NAME
+
+To download all the chapters starting from a specific chapter
+
+    ~ $ python script_name.py MANGA_NAME -s CHAPTER_NUMBER 
+
+To download a specific chapter:
+
+    ~ $ python script_name.py MANGA_NAME CHAPTER_NUMBER
+
+To download a range of manga chapter:
+
+    ~ $ python script_name.py MANGA_NAME RANGE_START RANGE_END
+
+Supported sites
+--------
+MangaPanda.com
+
+Notes
+-----
+Use this wisely and don't be evil.
